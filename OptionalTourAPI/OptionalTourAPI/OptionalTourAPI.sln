@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OptionalTourAPI.Api", "OptionalTourAPI.Api.csproj", "{CC726F46-2985-48CD-9146-DC5ABAD05878}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9DFFAAD9-2D6C-4412-9600-3E0A005E1A81} = {9DFFAAD9-2D6C-4412-9600-3E0A005E1A81}
+		{F6BE3906-7269-4722-94A7-F2D630385F96} = {F6BE3906-7269-4722-94A7-F2D630385F96}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OptionalToursAPI.Application", "..\OptionalToursAPI.Application\OptionalToursAPI.Application.csproj", "{9DFFAAD9-2D6C-4412-9600-3E0A005E1A81}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0CDA8524-2545-4E01-A68F-80DE131BC867} = {0CDA8524-2545-4E01-A68F-80DE131BC867}
+		{1BB6E510-16EF-4033-96F5-718B4C69766E} = {1BB6E510-16EF-4033-96F5-718B4C69766E}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OptionalToursAPI.Common", "..\OptionalToursAPI.Common\OptionalToursAPI.Common.csproj", "{F6BE3906-7269-4722-94A7-F2D630385F96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OptionalToursAPI.Core", "..\OptionalToursAPI.Core\OptionalToursAPI.Core.csproj", "{1BB6E510-16EF-4033-96F5-718B4C69766E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OptionalToursAPI.Infrastructure", "..\OptionalToursAPI.Infrastructure\OptionalToursAPI.Infrastructure.csproj", "{0CDA8524-2545-4E01-A68F-80DE131BC867}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1BB6E510-16EF-4033-96F5-718B4C69766E} = {1BB6E510-16EF-4033-96F5-718B4C69766E}
+		{F6BE3906-7269-4722-94A7-F2D630385F96} = {F6BE3906-7269-4722-94A7-F2D630385F96}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC726F46-2985-48CD-9146-DC5ABAD05878}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC726F46-2985-48CD-9146-DC5ABAD05878}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC726F46-2985-48CD-9146-DC5ABAD05878}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC726F46-2985-48CD-9146-DC5ABAD05878}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DFFAAD9-2D6C-4412-9600-3E0A005E1A81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DFFAAD9-2D6C-4412-9600-3E0A005E1A81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DFFAAD9-2D6C-4412-9600-3E0A005E1A81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DFFAAD9-2D6C-4412-9600-3E0A005E1A81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6BE3906-7269-4722-94A7-F2D630385F96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6BE3906-7269-4722-94A7-F2D630385F96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6BE3906-7269-4722-94A7-F2D630385F96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6BE3906-7269-4722-94A7-F2D630385F96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BB6E510-16EF-4033-96F5-718B4C69766E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BB6E510-16EF-4033-96F5-718B4C69766E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BB6E510-16EF-4033-96F5-718B4C69766E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BB6E510-16EF-4033-96F5-718B4C69766E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CDA8524-2545-4E01-A68F-80DE131BC867}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CDA8524-2545-4E01-A68F-80DE131BC867}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CDA8524-2545-4E01-A68F-80DE131BC867}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CDA8524-2545-4E01-A68F-80DE131BC867}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {11FB396F-85F6-4EDB-9F9B-52CDA77BC897}
+	EndGlobalSection
+EndGlobal
